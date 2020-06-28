@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AE9A20A24A7945900CABEC6 /* MoveToArchieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9A20924A7945900CABEC6 /* MoveToArchieveViewController.swift */; };
 		1AF2B76824A415EB00476E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2B76724A415EB00476E31 /* AppDelegate.swift */; };
 		1AF2B76A24A415EB00476E31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2B76924A415EB00476E31 /* SceneDelegate.swift */; };
-		1AF2B76C24A415EB00476E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2B76B24A415EB00476E31 /* ViewController.swift */; };
+		1AF2B76C24A415EB00476E31 /* EditNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2B76B24A415EB00476E31 /* EditNotesViewController.swift */; };
 		1AF2B76F24A415EB00476E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF2B76D24A415EB00476E31 /* Main.storyboard */; };
 		1AF2B77224A415EB00476E31 /* todo_Ikroop_C0774174.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2B77024A415EB00476E31 /* todo_Ikroop_C0774174.xcdatamodeld */; };
 		1AF2B77424A415ED00476E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF2B77324A415ED00476E31 /* Assets.xcassets */; };
 		1AF2B77724A415ED00476E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF2B77524A415ED00476E31 /* LaunchScreen.storyboard */; };
+		1AF2B77F24A419E800476E31 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2B77E24A419E800476E31 /* CategoryTableViewController.swift */; };
+		1AF2B78124A419FC00476E31 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2B78024A419FC00476E31 /* NotesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AE9A20924A7945900CABEC6 /* MoveToArchieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveToArchieveViewController.swift; sourceTree = "<group>"; };
 		1AF2B76424A415EB00476E31 /* todo_Ikroop_C0774174.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo_Ikroop_C0774174.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF2B76724A415EB00476E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AF2B76924A415EB00476E31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1AF2B76B24A415EB00476E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AF2B76B24A415EB00476E31 /* EditNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNotesViewController.swift; sourceTree = "<group>"; };
 		1AF2B76E24A415EB00476E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AF2B77124A415EB00476E31 /* todo_Ikroop_C0774174.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todo_Ikroop_C0774174.xcdatamodel; sourceTree = "<group>"; };
 		1AF2B77324A415ED00476E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AF2B77624A415ED00476E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AF2B77824A415ED00476E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF2B77E24A419E800476E31 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		1AF2B78024A419FC00476E31 /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		1AF2B78224A424C100476E31 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1AF2B78324A424C100476E31 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1AF2B78424A424C100476E31 /* Notebook+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notebook+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1AF2B78524A424C100476E31 /* Notebook+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +69,20 @@
 			isa = PBXGroup;
 			children = (
 				1AF2B76724A415EB00476E31 /* AppDelegate.swift */,
+				1AF2B78224A424C100476E31 /* Note+CoreDataClass.swift */,
+				1AF2B78324A424C100476E31 /* Note+CoreDataProperties.swift */,
+				1AF2B78424A424C100476E31 /* Notebook+CoreDataClass.swift */,
+				1AF2B78524A424C100476E31 /* Notebook+CoreDataProperties.swift */,
 				1AF2B76924A415EB00476E31 /* SceneDelegate.swift */,
-				1AF2B76B24A415EB00476E31 /* ViewController.swift */,
+				1AF2B76B24A415EB00476E31 /* EditNotesViewController.swift */,
 				1AF2B76D24A415EB00476E31 /* Main.storyboard */,
 				1AF2B77324A415ED00476E31 /* Assets.xcassets */,
 				1AF2B77524A415ED00476E31 /* LaunchScreen.storyboard */,
 				1AF2B77824A415ED00476E31 /* Info.plist */,
 				1AF2B77024A415EB00476E31 /* todo_Ikroop_C0774174.xcdatamodeld */,
+				1AF2B77E24A419E800476E31 /* CategoryTableViewController.swift */,
+				1AF2B78024A419FC00476E31 /* NotesTableViewController.swift */,
+				1AE9A20924A7945900CABEC6 /* MoveToArchieveViewController.swift */,
 			);
 			path = todo_Ikroop_C0774174;
 			sourceTree = "<group>";
@@ -141,10 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF2B76C24A415EB00476E31 /* ViewController.swift in Sources */,
+				1AF2B76C24A415EB00476E31 /* EditNotesViewController.swift in Sources */,
+				1AE9A20A24A7945900CABEC6 /* MoveToArchieveViewController.swift in Sources */,
 				1AF2B76824A415EB00476E31 /* AppDelegate.swift in Sources */,
+				1AF2B77F24A419E800476E31 /* CategoryTableViewController.swift in Sources */,
 				1AF2B77224A415EB00476E31 /* todo_Ikroop_C0774174.xcdatamodeld in Sources */,
 				1AF2B76A24A415EB00476E31 /* SceneDelegate.swift in Sources */,
+				1AF2B78124A419FC00476E31 /* NotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
